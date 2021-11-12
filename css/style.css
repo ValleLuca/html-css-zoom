@@ -11,20 +11,38 @@
 
 .griglia {
     width: 80%;
-    margin: auto;    display: flex;
-    flex-direction: row;
+    margin: auto;
+}
+
+.container {
+    padding-top: 50px;
 }
 
 .camera-utente {
-    padding-top: 50px;
     position: relative;
+}
+
+.camera-utente img {
+    margin: 0 2px;
+    
 }
 
 .nome {
     position: absolute;
     bottom: 5px;
-    left: 0;
+    left: 2px;
     padding: 5px 10px;
     background-color: rgba(100,113,125,0.5);
     border-radius: 0 5px 5px 0;
+}
+
+section {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.speaker-view {
+    background-color: rgba(100,113,125,0.5);
+    padding: 5px 10px;
+    color: white;
 }
