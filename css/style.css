@@ -6,16 +6,16 @@
 
 .griglia-utenti {
     background-color: black;
-    height: 100vw;
 }
 
 .griglia {
-    width: 80%;
+    width: 95%;
     margin: auto;
 }
 
 .container {
     padding-top: 50px;
+    display: inline-block;
 }
 
 .camera-utente {
@@ -24,7 +24,7 @@
 
 .camera-utente img {
     margin: 0 2px;
-    
+    padding-top: 10px;
 }
 
 .nome {
@@ -34,6 +34,7 @@
     padding: 5px 10px;
     background-color: rgba(100,113,125,0.5);
     border-radius: 0 5px 5px 0;
+    color: white;
 }
 
 section {
@@ -45,4 +46,50 @@ section {
     background-color: rgba(100,113,125,0.5);
     padding: 5px 10px;
     color: white;
+    position: fixed;
+    border-radius: 5px;
+    top: 10px;
+    right: 60px;
+    z-index: 1;
+}
+
+.espandi {
+    background-color: rgba(100,113,125,0.5);
+    padding: 5px 10px;
+    color: white;
+    position: fixed;
+    border-radius: 5px;
+    top: 10px;
+    right: 10px;
+    z-index: 1;
+}
+
+.container-footer {
+    width: 100vw;
+    background-color: #222222;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+.audio {
+    color: white;
+    padding-left: 20px;
+    flex-direction: column;
+}
+
+.dasboard_centrale {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.end-meeting {
+    color: red;
 }
