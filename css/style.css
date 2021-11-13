@@ -95,7 +95,9 @@ section {
     flex-direction: column;
 }
 
-
+.opiton i{
+    color: white;
+}
 
 .dasboard_centrale {
     color: white;
